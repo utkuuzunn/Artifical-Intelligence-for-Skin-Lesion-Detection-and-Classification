@@ -31,4 +31,4 @@ This project presents a deep learning-based approach for the detection and class
 
 ## Repository Contents
 
-- `cilt_lezyonları.ipynb`: Main Jupyter Notebook containing the full workflow including data loading, preprocessing, model building, training, and evaluation.
+- `Skin-Lesion-Detection-and-Classification.ipynb`: Main Jupyter Notebook containing the full workflow including data loading, preprocessing, model building, training, and evaluation.
