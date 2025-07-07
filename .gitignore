@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables or secrets
+*.env
+*.env.*
+
+# Kaggle API key (should not be shared publicly)
+kaggle.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
