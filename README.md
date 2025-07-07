@@ -20,13 +20,6 @@ The dataset includes seven types of skin lesions, each annotated as either benig
 | nv      | Melanocytic nevi (common moles)              | Benign     |
 | vasc    | Vascular lesions (e.g. angiomas, hemangiomas) | Benign     |
 
-## Technologies Used
-
-- Python  
-- Google Colab  
-- TensorFlow / Keras  
-- NumPy, Pandas, Matplotlib  
-- Convolutional Neural Networks (CNN)
 
 ## How to Run
 
@@ -45,7 +38,6 @@ The model’s performance was evaluated using the following metrics:
 - **Recall (Weighted):** 0.9123
 - **F1-Score (Weighted):** 0.9089
 
-*You can update these values after running the final evaluation cell in the notebook.*
 
 ## Repository Contents
 
