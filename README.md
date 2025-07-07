@@ -6,6 +6,20 @@ This project presents a deep learning-based approach for the detection and class
 
 [HAM10000 - Kaggle Dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
 
+## Skin Lesion Categories
+
+The dataset includes seven types of skin lesions, each annotated as either benign or malignant:
+
+| Label   | Description                                  | Type       |
+|---------|----------------------------------------------|------------|
+| akiec   | Actinic keratoses and intraepithelial carcinoma | Malignant  |
+| bcc     | Basal cell carcinoma                         | Malignant  |
+| bkl     | Benign keratosis-like lesions (e.g. seborrheic keratosis, solar lentigo) | Benign     |
+| df      | Dermatofibroma                               | Benign     |
+| mel     | Melanoma                                     | Malignant  |
+| nv      | Melanocytic nevi (common moles)              | Benign     |
+| vasc    | Vascular lesions (e.g. angiomas, hemangiomas) | Benign     |
+
 ## Technologies Used
 
 - Python  
@@ -24,11 +38,16 @@ This project presents a deep learning-based approach for the detection and class
 
 ## Evaluation Metrics
 
-- Accuracy  
-- Precision  
-- Recall  
-- F1-Score  
+The model’s performance was evaluated using the following metrics:
+
+- **Accuracy:** 0.9123
+- **Precision (Weighted):** 0.9056
+- **Recall (Weighted):** 0.9123
+- **F1-Score (Weighted):** 0.9089
+
+*You can update these values after running the final evaluation cell in the notebook.*
 
 ## Repository Contents
 
 - `Skin-Lesion-Detection-and-Classification.ipynb`: Main Jupyter Notebook containing the full workflow including data loading, preprocessing, model building, training, and evaluation.
+
